@@ -1,0 +1,120 @@
+header div {
+    background-color: #339966;
+    position: top;
+    width: 100%;
+    padding: 5px;
+    min-height: 50px;
+    height: 50px;
+    max-height: 50px;
+}
+
+.btn.btn-myred {
+    background-color: red;
+}
+.btn.btn-myblue {
+    background-color: blue;
+}
+.btn.btn-mygreen {
+    background-color: green;
+}
+.btn.btn-myblack {
+    background-color: black;
+}
+
+.btn.active {
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.btn.colornow {
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+.btn.colornow.red {
+    background-color: red;
+}
+.btn.colornow.blue {
+    background-color: blue;
+}
+.btn.colornow.green {
+    background-color: green;
+}
+.btn.colornow.black {
+    background-color: black;
+    color: white;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td.pixelized-black, button.black {
+    background-color: black;
+}
+td.pixelized-red, button.red {
+    background-color: red;
+}
+td.pixelized-green, button.green {
+    background-color: green;
+}
+td.pixelized-blue, button.blue {
+    background-color: blue;
+}
+
+div.sayColor {
+    border: 0px solid black;
+    border-radius: 10px;
+    width: 20px;
+    display: inline-block;
+}
+
+div.sayColor.green {
+    background-color: green;
+}
+div.sayColor.red {
+    background: red;
+}
+div.sayColor.blue {
+    background: blue;
+}
+div.sayColor.black {
+    background: black;
+}
+
+td {
+    border: 0.5px solid lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+td.small {
+    min-width: 6px;
+    width: 6px;
+    max-width: 6px;
+    min-height: 6px;
+    height: 6px;
+    max-height: 6px;
+}
+
+td.medium {
+    min-width: 10px;
+    width: 10px;
+    max-width: 10px;
+    min-height: 10px;
+    height: 10px;
+    max-height: 10px;
+}
+
+td.big {
+    min-width: 14px;
+    width: 14px;
+    max-width: 14px;
+    min-height: 14px;
+    height: 14px;
+    max-height: 14px;
+}

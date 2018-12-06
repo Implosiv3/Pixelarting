@@ -1,0 +1,38 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pixel Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button id="colornow" class="btn colornow black">&nbsp;&nbsp;&nbsp;</button>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <button id="btnBlack" class="btn btn-myblack active" onclick="setColorBlack()">&nbsp;</button>
+            <button id="btnRed" class="btn btn-myred" onclick="setColorRed()">&nbsp;</button>
+            <button id="btnBlue" class="btn btn-myblue" onclick="setColorBlue()">&nbsp;</button>
+            <button id="btnGreen" class="btn btn-mygreen" onclick="setColorGreen()">&nbsp;</button>
+        </div>
+    </header>
+    <section>
+        <div>
+            <table id="pixelart_table">
+                
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <button onclick="initTable(30, 50, 'medium')" disabled>↑</button>
+            <button onclick="initTable(30, 50, 'small')" disabled>↓</button>
+        </div>
+    </footer>
+</body>
+<script src="js/functions.js"></script>
+</html>
